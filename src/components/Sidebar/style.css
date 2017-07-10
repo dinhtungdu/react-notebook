@@ -1,0 +1,56 @@
+.Sidebar {
+	text-align: left;
+	background: #fff;
+	border-right: 1px solid #e9e9e9;
+}
+
+.Sidebar__Header {
+	display: flex;
+	align-items: center;
+	height: 61px;
+	border-bottom: 1px solid #e9e9e9;
+}
+
+.Sidebar__Header .trigger {
+	font-size: 18px;
+	line-height: 45px;
+	padding: 0 16px;
+	cursor: pointer;
+	transition: color .3s;
+	margin-left: auto;
+}
+
+.Sidebar.ant-layout-sider-collapsed .Logo {
+	display: none;
+}
+
+.Sidebar.ant-layout-sider-collapsed .trigger {
+	margin-right: auto;
+}
+
+.Sidebar .ant-menu-inline {
+	border-right: none;
+}
+
+.ant-menu-inline .ant-menu-item, .ant-menu-inline .ant-menu-submenu-title {
+	font-size: 14px;
+}
+
+.Sidebar .ant-menu-item i {
+	margin-right: 10px;
+}
+
+.Sidebar.ant-layout-sider-collapsed .txt {
+	display: none;
+}
+
+.Sidebar .ant-menu-item-group-title {
+	background: #f9f9f9;
+}
+
+.Sidebar .ant-menu-item-group-title i {
+	display: none;
+}
+.Sidebar.ant-layout-sider-collapsed .ant-menu-item-group-title i {
+	display: block;
+}

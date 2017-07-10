@@ -1,0 +1,29 @@
+.SearchForm {
+	width: calc(100% - 200px);
+	min-width: 300px;
+}
+
+.SearchForm input.ant-input {
+	font-size: 16px;
+	border-color: transparent;
+}
+
+.SearchForm .ant-input-affix-wrapper:hover input.ant-input {
+	border-color: transparent;
+}
+
+.SearchForm input:focus {
+	box-shadow: none;
+}
+
+.SearchForm .ant-input-affix-wrapper .ant-input:not(:first-child) {
+	padding-left: 50px;
+}
+
+.SearchForm i {
+	font-size: 20px;
+}
+
+.SearchForm .ant-input-affix-wrapper:hover i {
+	color: #49a9ee;
+}
